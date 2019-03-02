@@ -62,6 +62,12 @@ export default class App extends React.Component {
                         .push();
     newMessage.set(this.state.message, () => this.setState({message: ''}))
   }
+
+  deleteItem(){
+//firebase linked function to delete some .child("messages")
+
+  }
+
   render() {
     return (
       <View style={styles.container}>
